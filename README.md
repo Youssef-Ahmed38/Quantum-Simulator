@@ -1,5 +1,15 @@
 # quantum simulator
 
+> Educational state-vector simulator in Python and NumPy, with circuit composition, measurement, visualization, and testable textbook algorithms.
+
+```mermaid
+flowchart LR
+    A[QuantumCircuit] --> B[Gate operations]
+    B --> C[State-vector evolution]
+    C --> D[Measurement and probabilities]
+    D --> E[Visualization and examples]
+```
+
 A small state-vector quantum circuit simulator written in Python + NumPy
 for my QC course project. Supports the usual gate set, measurement,
 visualization, and a few textbook algorithms.
